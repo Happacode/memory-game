@@ -17,6 +17,16 @@ body {
   flex-wrap: wrap;
 }
 
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+
 img {
   width: 100px;
 }
