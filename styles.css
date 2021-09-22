@@ -31,6 +31,16 @@ body {
   transition: transform .2s;
 }
 
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  background: #1C7CCC;
+}
+
 
 img {
   width: 100px;
